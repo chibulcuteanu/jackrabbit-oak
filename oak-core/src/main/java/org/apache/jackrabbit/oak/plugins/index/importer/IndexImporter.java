@@ -261,7 +261,6 @@ public class IndexImporter {
                     // "switchLanes" to idxBuilder from indexDefinitionUpdater i.e. nodestate before index import started
                     copyLaneProps(existing, idxBuilder);
                 }
-
                 //TODO How to support CompoNodeStore where some of the child nodes would be hidden
                 incrementReIndexCount(idxBuilder);
                 // importIndex copies data from current folder to new older. Updates idxbuilder with new uid.
@@ -322,7 +321,6 @@ public class IndexImporter {
             revertLaneChange(builder, indexInfos);
             updateIndexImporterState(builder, IndexImportState.IMPORT_INDEX_DATA, IndexImportState.BRING_INDEX_UPTODATE, false);
             mergeWithConcurrentCheck(nodeStore, builder);
-
             success = true;
             LOG.info("Imported index is updated to repository state at checkpoint [{}] for indexing lane [{}]",
                     checkpoint, laneName);

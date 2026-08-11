@@ -6,16 +6,16 @@
   "timestamp": "2026-08-11T10:45:25+03:00",
   "detection": {
     "ai_assisted": true,
-    "method": "heuristic",
-    "tool": "claude-code",
+    "method": "editor_hook",
+    "tool": "claude",
     "model": "",
-    "confidence": 0.95
+    "confidence": 1.0
   },
   "stats": {
-    "total_additions": 40,
-    "total_deletions": 1,
-    "ai_additions": 40,
-    "ai_deletions": 1,
+    "total_additions": 48,
+    "total_deletions": 0,
+    "ai_additions": 48,
+    "ai_deletions": 0,
     "human_additions": 0,
     "human_deletions": 0
   },
@@ -23,14 +23,18 @@
     "oak-core/src/main/java/org/apache/jackrabbit/oak/plugins/index/AsyncIndexUpdate.java": {
       "ai_additions": 6,
       "human_additions": 0,
-      "ai_deletions": 1,
-      "human_deletions": 0
+      "ai_deletions": 0,
+      "human_deletions": 0,
+      "ai_lines": "1-6",
+      "human_lines": ""
     },
     "oak-core/src/test/java/org/apache/jackrabbit/oak/plugins/index/AsyncIndexUpdateTest.java": {
-      "ai_additions": 34,
+      "ai_additions": 42,
       "human_additions": 0,
       "ai_deletions": 0,
-      "human_deletions": 0
+      "human_deletions": 0,
+      "ai_lines": "43,665-705",
+      "human_lines": ""
     }
   }
 }

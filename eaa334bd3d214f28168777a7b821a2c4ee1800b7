@@ -7,9 +7,9 @@
   "detection": {
     "ai_assisted": true,
     "method": "heuristic",
-    "tool": "unknown",
+    "tool": "copilot",
     "model": "",
-    "confidence": 0.3
+    "confidence": 0.9
   },
   "stats": {
     "total_additions": 88,

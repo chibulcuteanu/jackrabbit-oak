@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "mode": "full",
+  "commit_sha": "7a29cba0dc3c66564764cb14ef395d7a2d49bc91",
+  "author": "24243104+chibulcuteanu@users.noreply.github.com",
+  "timestamp": "2026-10-07T10:25:36+03:00",
+  "detection": {
+    "ai_assisted": true,
+    "method": "heuristic",
+    "tool": "copilot",
+    "model": "",
+    "confidence": 0.9
+  },
+  "stats": {
+    "total_additions": 75,
+    "total_deletions": 76,
+    "ai_additions": 75,
+    "ai_deletions": 76,
+    "human_additions": 0,
+    "human_deletions": 0
+  },
+  "files": {
+    "oak-core/src/main/java/org/apache/jackrabbit/oak/plugins/index/inventory/IndexDefinitionPrinter.java": {
+      "ai_additions": 26,
+      "human_additions": 0,
+      "ai_deletions": 56,
+      "human_deletions": 0
+    },
+    "oak-core/src/test/java/org/apache/jackrabbit/oak/plugins/index/inventory/IndexDefinitionPrinterTest.java": {
+      "ai_additions": 49,
+      "human_additions": 0,
+      "ai_deletions": 20,
+      "human_deletions": 0
+    }
+  }
+}
